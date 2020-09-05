@@ -1,23 +1,42 @@
-const ball_1 = document.querySelector(".ball_1");
+const divs = document.querySelectorAll("div");
 const ball_2 = document.querySelector(".ball_2");
-const height = window.innerHeight - 150;
+const colors = () => {
+  colorsList = [
+    "red",
+    "green",
+    "blue",
+    "yellow",
+    "chartreuse",
+    "blueviolet",
+    "orange",
+    "cadetblue",
+    "crimson",
+    "chocolate",
+  ];
+  const color = colorsList[Math.floor(Math.random() * 10)];//można zamiast 10 wpisać colorList.lenght
+  return color;
+};
 
-TweenMax.staggerFrom(
-  "div",
+TweenLite.defaultEase = Power0.easeNone;//do wartości domysnej ease przypisałam inną nową, która teraz będzie domyślna
+
+console.log(TweenLite.defaultEase);
+TweenMax.staggerTo(
+  divs,
   1,
   {
-    x: 130,
-    opacity: 0,
-    delay: 1, //opóźnienie
-    border: "2px solid black",
+    opacity: 1,
+    color: colors,
   },
-  0.5,
+  2,
 );
-TweenMax.set(
-    'div',
-    {
-        visibility: "visible"
-    }
+TweenMax.staggerTo(
+  divs,
+  0.5,
+  {
+    opacity: 0,
+    delay: 2, //opóźnienie
+  },
+  2,
 );
 
 //yoyo oznacza tyle co "alternate" w css czyli animacja wykona sie w dwie strony

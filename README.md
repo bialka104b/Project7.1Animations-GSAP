@@ -34,21 +34,20 @@
 
 ## :dart: About
 
-<ol start="258" style="font-weight:600">
-<li>TweenMax.from(), TweenMax.fromTo() GSAP<br>
+<ol start="258" style="font-weight:bold">
+<li style="margin-top:5px">TweenMax.from(), TweenMax.fromTo() GSAP<br>
 <span>(commit 62c1c3e26a235aa6c294e3f5cdbb5c6cb88ad904)</span></li>
-
-<li>TweenMax.from(), TweenMax.fromTo() GSAP<br>
+<li style="margin-top:5px">TweenMax.from(), TweenMax.fromTo() GSAP<br>
 <span>(commit b3fe3abbb4545a84995e1f3fa22988cfcbe1d8be)</span></li>
-
-<li>Sunrise and sunset GSAP<br>
+<li style="margin-top:5px">Sunrise and sunset GSAP<br>
 <span>(commit 0debd88cbbaca2d41f20231bb2718ec703d741cc)</span></li>
-
-<li>Methods TweenMax.set()<br>
+<li style="margin-top:5px">Methods TweenMax.set()<br>
 <span>(merge commit df2e1ab2c6c8d390d48ccdfa0a8306bd34f450f7)</span></li>
+<li style="margin-top:5px">Methods .starggerTo() .starggerFrom(), starggerFromTo()<br>
+<span>(commit ea46fe2f40e689c5c068684af7972761c56d6354)</span></li>
 
-<li>Methods .starggerTo() .starggerFrom(), starggerFromTo()<br>
-<span></span></li>
+<li style="margin-top:5px">Methods starggerTo() and defaultEase<br>
+<span>()</span></li>
 </ol>
 
 ## :sparkles: Usage Methods
