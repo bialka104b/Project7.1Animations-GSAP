@@ -1,43 +1,16 @@
-const divs = document.querySelectorAll("div");
-const ball_2 = document.querySelector(".ball_2");
-const colors = () => {
-  colorsList = [
-    "red",
-    "green",
-    "blue",
-    "yellow",
-    "chartreuse",
-    "blueviolet",
-    "orange",
-    "cadetblue",
-    "crimson",
-    "chocolate",
-  ];
-  const color = colorsList[Math.floor(Math.random() * 10)];//można zamiast 10 wpisać colorList.lenght
-  return color;
-};
+const rocket = document.querySelector(".rocket");
 
-TweenLite.defaultEase = Power0.easeNone;//do wartości domysnej ease przypisałam inną nową, która teraz będzie domyślna
-
-console.log(TweenLite.defaultEase);
-TweenMax.staggerTo(
-  divs,
-  1,
-  {
-    opacity: 1,
-    color: colors,
-  },
-  2,
-);
-TweenMax.staggerTo(
-  divs,
-  0.5,
-  {
-    opacity: 0,
-    delay: 2, //opóźnienie
-  },
-  2,
-);
+const timeLine = new TimelineMax();
+timeLine.timeScale(3);//przyśpieszanie lub zwalnianie animacji
+timeLine.set(rocket, {rotation:90});
+timeLine.to(rocket,3, {rotation:"-=90"});
+timeLine.to(rocket,2, {y: -400, delay:2, ease: Power4.easeIn, rotation:0});
+timeLine.to(rocket,1, {y: "-=100", ease: Power0.easeIn, rotation:0});
+timeLine.add("stop");
+timeLine.to(rocket,0.7, {rotation: "-=100", delay:0.4, ease: Power0.easeIn}, "stop");
+timeLine.to(rocket,1, {y: 80, delay:0.4, ease: Power0.easeIn}, "stop");
+//timeLine.to(rocket, .3, {boxShadow:"1px 1px 20px 0px red" });
+timeLine.to(rocket, .3, {opacity:0});
 
 //yoyo oznacza tyle co "alternate" w css czyli animacja wykona sie w dwie strony
 //repeat:-1 to inaczej "infinite" w css
