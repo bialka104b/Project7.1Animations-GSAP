@@ -3,10 +3,10 @@ body {
   height: auto;
 }
 
-.rocket {
-  position: absolute;
-  left: 50%;
-  top: 650px;
-  height: 200px;
+.rectangle {
+  background-color: green;
+  margin: 50px;
+  width: 100px;
+  height: 100px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -50,6 +50,8 @@
 
 <li>Methods TimelineMax() - rocket<br>
 <span>()</span></li>
+<li>Methods TimelineMax() - rectangle<br>
+<span>()</span></li>
 </ol>
 
 ## :sparkles: Usage Methods
@@ -60,8 +62,9 @@
 :heavy_check_mark: TweenMax.staggerTo();\
 :heavy_check_mark: TweenMax.staggerFrom();\
 :heavy_check_mark: TweenMax.staggerFromTo();\
-:heavy_check_mark: TimelineMax().timeScale();
-
+:heavy_check_mark: TimelineMax().timeScale();\
+:heavy_check_mark: resume();\
+:heavy_check_mark: pause();
 
 ## :rocket: Technologies
 
@@ -87,7 +90,7 @@ $ cd project7-1animacje_gsap
 
 ## :memo: License
 
-Made with :heart: by <a href="https://github.com/bialka104b" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/bialka104b" target="_blank">Marta</a>
 
 &#xa0;
 
