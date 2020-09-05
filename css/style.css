@@ -1,0 +1,18 @@
+:root {
+  --size: 150px;
+}
+
+body {
+  background-color: greenyellow;
+}
+
+.ball {
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  background-color: green;
+  bottom: calc(100% - var(--size));
+  left: calc(50% - var(--size)/2);
+}
+/*# sourceMappingURL=style.css.map */
