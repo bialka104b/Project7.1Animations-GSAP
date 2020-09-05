@@ -39,6 +39,7 @@
 
 <li>TweenMax.from(), TweenMax.fromTo() GSAP<br>
 <span>()</span></li>
+
 </ol>
 
 ## :sparkles: Usage Methods
