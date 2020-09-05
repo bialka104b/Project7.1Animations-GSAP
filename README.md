@@ -33,15 +33,19 @@
 <br>
 
 ## :dart: About
+<ol start="258" style="font-weight:600">
+<li>TweenMax.from(), TweenMax.fromTo() GSAP<br>
+<span>(commit 62c1c3e26a235aa6c294e3f5cdbb5c6cb88ad904)</span></li>
 
-Describe your project
+<li>TweenMax.from(), TweenMax.fromTo() GSAP<br>
+<span>()</span></li>
+</ol>
 
 ## :sparkles: Usage Methods
 
 :heavy_check_mark: TweenMax.to();\
-
-<!-- :heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3; -->
+:heavy_check_mark: TweenMax.from();\
+:heavy_check_mark: TweenMax.fromTo();
 
 ## :rocket: Technologies
 
@@ -63,20 +67,9 @@ $ git clone https://github.com/bialka104b/project7-1animacje_gsap
 
 # Access
 $ cd project7-1animacje_gsap
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
 ```
 
 ## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
 
 Made with :heart: by <a href="https://github.com/bialka104b" target="_blank">{{YOUR_NAME}}</a>
 

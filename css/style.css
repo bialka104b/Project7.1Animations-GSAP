@@ -1,18 +1,22 @@
 :root {
-  --size: 150px;
+  --size: 100px;
 }
 
 body {
   background-color: greenyellow;
 }
 
-.ball {
-  position: absolute;
+.ball_1, .ball_2 {
   width: var(--size);
   height: var(--size);
+  margin: 20px;
   border-radius: 50%;
   background-color: green;
-  bottom: calc(100% - var(--size));
-  left: calc(50% - var(--size)/2);
+}
+
+.ball_1 {
+  -webkit-transform: translateX(90vh);
+      -ms-transform: translateX(90vh);
+          transform: translateX(90vh);
 }
 /*# sourceMappingURL=style.css.map */
