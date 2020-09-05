@@ -38,6 +38,10 @@
 <span>(commit 62c1c3e26a235aa6c294e3f5cdbb5c6cb88ad904)</span></li>
 
 <li>TweenMax.from(), TweenMax.fromTo() GSAP<br>
+<span>(commit b3fe3abbb4545a84995e1f3fa22988cfcbe1d8be)</span></li>
+</ol>
+
+<li>Sunrise and sunset GSAP<br>
 <span>()</span></li>
 </ol>
 

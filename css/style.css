@@ -1,22 +1,29 @@
 :root {
-  --size: 100px;
+  --size: 200px;
 }
 
 body {
-  background-color: greenyellow;
+  background-color: lightblue;
 }
 
-.ball_1, .ball_2 {
+.sun_1 {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
   width: var(--size);
   height: var(--size);
-  margin: 20px;
+  background-color: #ff7300;
+  -webkit-box-shadow: 1px 1px 8px 10px  darkgoldenrod;
+          box-shadow: 1px 1px 8px 10px  darkgoldenrod;
   border-radius: 50%;
-  background-color: green;
 }
 
-.ball_1 {
-  -webkit-transform: translateX(90vh);
-      -ms-transform: translateX(90vh);
-          transform: translateX(90vh);
+.grass_2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 80%;
+  background-color: green;
 }
 /*# sourceMappingURL=style.css.map */
