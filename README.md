@@ -1,7 +1,7 @@
 <div align="center" id="top"> 
   <img src="./.github/app.gif" alt="Project7 1Animacje_GSAP" />
 
-  &#xa0;
+&#xa0;
 
   <!-- <a href="https://project71animacje_gsap.netlify.app">Demo</a> -->
 </div>
@@ -14,9 +14,9 @@
 
 <!-- Status -->
 
-<!-- <h4 align="center"> 
+<!-- <h4 align="center">
 	🚧  Project7 1Animacje_GSAP 🚀 Under construction...  🚧
-</h4> 
+</h4>
 
 <hr> -->
 
@@ -33,6 +33,7 @@
 <br>
 
 ## :dart: About
+
 <ol start="258" style="font-weight:600">
 <li>TweenMax.from(), TweenMax.fromTo() GSAP<br>
 <span>(commit 62c1c3e26a235aa6c294e3f5cdbb5c6cb88ad904)</span></li>
@@ -42,15 +43,23 @@
 </ol>
 
 <li>Sunrise and sunset GSAP<br>
-<span>()</span></li>
+<span>(commit 0debd88cbbaca2d41f20231bb2718ec703d741cc)</span></li>
 
+<li>Methods TweenMax.set()<br>
+<span>(merge commit df2e1ab2c6c8d390d48ccdfa0a8306bd34f450f7)</span></li>
+
+<li>Methods .starggerTo() .starggerFrom(), starggerFromTo()<br>
+<span></span></li>
 </ol>
 
 ## :sparkles: Usage Methods
 
 :heavy_check_mark: TweenMax.to();\
 :heavy_check_mark: TweenMax.from();\
-:heavy_check_mark: TweenMax.fromTo();
+:heavy_check_mark: TweenMax.fromTo();\
+:heavy_check_mark: TweenMax.staggerTo();\
+:heavy_check_mark: TweenMax.staggerFrom();\
+:heavy_check_mark: TweenMax.staggerFromTo();
 
 ## :rocket: Technologies
 
@@ -64,7 +73,7 @@ The following tools were used in this project:
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [GreenSock](https://greensock.com/) installed.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Starting
 
 ```bash
 # Clone this project
@@ -74,12 +83,10 @@ $ git clone https://github.com/bialka104b/project7-1animacje_gsap
 $ cd project7-1animacje_gsap
 ```
 
-## :memo: License ##
+## :memo: License
 
 Made with :heart: by <a href="https://github.com/bialka104b" target="_blank">{{YOUR_NAME}}</a>
 
 &#xa0;
 
 <a href="#top">Back to top</a>
-
-
