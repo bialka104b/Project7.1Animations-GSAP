@@ -40,7 +40,6 @@
 
 <li>TweenMax.from(), TweenMax.fromTo() GSAP<br>
 <span>(commit b3fe3abbb4545a84995e1f3fa22988cfcbe1d8be)</span></li>
-</ol>
 
 <li>Sunrise and sunset GSAP<br>
 <span>(commit 0debd88cbbaca2d41f20231bb2718ec703d741cc)</span></li>
