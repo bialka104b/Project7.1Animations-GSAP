@@ -1,3 +1,13 @@
+
+const ball_1 = document.querySelector(".ball_1");
+const ball_2 = document.querySelector(".ball_2");
+const height = window.innerHeight - 150;
+
+TweenMax.set("div", { visibility: "visible", border: "2px solid black"});
+TweenMax.from(ball_1, 5, { x: 0, repeat: -1, yoyo: true, ease: "elastic.out(1, 0.3)" }); //z jakiego miejsca ma być wykonywana animacja. Miejsce docelowe jest ustawione w css
+
+TweenMax.fromTo(ball_2, 2, { y: 100, backgroundColor: "olive", delay: 5 }, { y: 300 });
+
 const sun_1 = document.querySelector(".sun_1");
 const height = window.innerHeight - 300;
 const x = (window.innerWidth - 300);

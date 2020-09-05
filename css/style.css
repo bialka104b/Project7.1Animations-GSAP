@@ -16,6 +16,9 @@ body {
   -webkit-box-shadow: 1px 1px 8px 10px  darkgoldenrod;
           box-shadow: 1px 1px 8px 10px  darkgoldenrod;
   border-radius: 50%;
+
+  background-color: green;
+  visibility: hidden;
 }
 
 .grass_2 {
